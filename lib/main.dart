@@ -77,12 +77,12 @@ class _RootPageState extends State<RootPage> {
       //     ],
       //   ),
       // ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          debugPrint('Floating Action Button');
-        },
-        child: const Icon(Icons.add),
-      ),
+      // floatingActionButton: FloatingActionButton(
+      //   onPressed: () {
+      //     debugPrint('Floating Action Button');
+      //   },
+      //   child: const Icon(Icons.add),
+      // ),
       bottomNavigationBar: NavigationBar(
         destinations: const [
           NavigationDestination(icon: Icon(Icons.home), label: 'Home'),
